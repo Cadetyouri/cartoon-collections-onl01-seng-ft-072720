@@ -6,21 +6,18 @@
     puts "#{i + 1}. #{dwarves[i]}"
     i += 1
   end
-end
 
   # Your code here
   def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |i|
     i.capitalize + "!"
   end
-end
 
   # Your code 
   def long_planeteer_calls(calls_long)
   calls_long.any? do |i|
     i.length > 4
   end
-end
 
 def find_the_cheese# code an argument here
  cheese_types = ["cheddar", "gouda", "camembert"]
@@ -28,4 +25,3 @@ def find_the_cheese# code an argument here
   array.find do |i|
     i == cheese_types[index]
   end
-end
