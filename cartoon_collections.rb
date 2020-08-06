@@ -19,7 +19,7 @@
     i.length > 4
   end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
  cheese_types = ["cheddar", "gouda", "camembert"]
   index = 0
   array.find do |i|
